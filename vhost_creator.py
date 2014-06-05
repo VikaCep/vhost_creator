@@ -1,8 +1,10 @@
+#!/usr/bin/env python
+
 import os
 from io import open
 
 # default values
-default_vhosts_file = "/etc/apache2/sites-available/000-default.conf"
+default_vhosts_file = "/etc/apache2/sites-enabled/000-default.conf"
 default_domain = "local"
 default_hosts_file = "/etc/hosts"
 default_index = "index.php"
